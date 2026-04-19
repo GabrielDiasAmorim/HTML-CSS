@@ -10,6 +10,15 @@ article p {
     text-align: justify;
     font-size: 20px;
 }
+.html{
+    border: 5px solid orange;
+}
+.css{
+    border: 5px solid #214CE5;
+}
+.js{
+    border: 5px solid yellow;
+}
 h2{
     font-size: 24px;
 }
