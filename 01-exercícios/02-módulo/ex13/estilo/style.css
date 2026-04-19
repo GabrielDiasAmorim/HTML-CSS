@@ -5,10 +5,12 @@ header{
 
 }
 h1{
+    color: white;
     text-align: center;
     font-size: 24px;
 }
 article p {
+    color: white;
     text-align: justify;
     font-size: 20px;
 }
@@ -29,6 +31,7 @@ div{
     background: #6b7280; 
 }
 h2{
+    color: white;
     font-size: 24px;
 }
 .um{
@@ -43,6 +46,7 @@ h2{
     font-size: 20px;
 }
 footer{
+    color: white;
     text-align: center;
     padding: 10px;
 }
