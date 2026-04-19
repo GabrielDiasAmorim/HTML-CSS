@@ -1,0 +1,58 @@
+body{
+    background-image: linear-gradient(to left, navy, black);
+    color: white;
+    font: normal bold 2em arial;
+}
+header{
+    background-image: linear-gradient(45deg, black, darkblue);
+    color: white;
+    width: 300px;
+    height: 300px;
+    border: 10px solid black;
+    padding: 50px;
+    margin: 50px;
+}
+header h1{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    font-family: sans-serif;
+}
+nav{
+    width: 300px;
+    height: 300px;
+    border: 10px solid black;
+    padding: 50px;
+    margin: 50px;
+}
+nav a:visited {
+    color: blue;
+}
+nav a:hover{
+    color: blue;
+}
+main{
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    margin: 15px;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+article p {
+    text-align: justify;
+}
+section p {
+    text-align: left;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+aside{
+    text-align: justify;
+}
+footer{
+    font-size: 0.5em;
+    color: white;
+    border-radius: 5px;
+}
