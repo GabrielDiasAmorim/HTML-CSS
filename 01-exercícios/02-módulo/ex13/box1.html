@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aprendendo box model</title>
+    <style>
+        /*box 1 estilizado padrão*/
+        .box1{
+            width: 300px;
+            height: 50px;
+            background-color: lightblue;
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+            padding: 20px;
+            outline-width: 30px;
+            outline-style: solid;
+            outline-color: blue;
+            margin: 50px;
+        }
+        /*box 2 estilizado com shorthand*/
+        .box2{
+            width: 300px;
+            height: 50px;
+            background-color: lightcoral;
+            border: 10px solid darkred;
+            padding: 20px;
+            outline: 30px solid darkgrey;
+            margin: 50px;
+        }
+        /*box 3 irei acrescentar o box shadow e border radius*/
+        .box3{
+            width: 300px;
+            height: 50px;
+            background-color: azure;
+            border: 15px solid dodgerblue;
+            border-radius: 10px 10px ;
+            outline: 30px solid deeppink;
+            padding: 30px;
+            margin: 50px;
+            box-shadow: 3px 3px 4px black;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+</html>
