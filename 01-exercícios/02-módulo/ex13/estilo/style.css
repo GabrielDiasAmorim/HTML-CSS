@@ -7,19 +7,14 @@ header{
     background-image: linear-gradient(45deg, black, darkblue);
     color: white;
     border: 10px solid black;
-    padding: 15px;
-    margin: 10px;
 }
 header h1{
     text-align: center;
     color: white;
-    font-size: 3em;
     font-family: sans-serif;
 }
 nav{
     border: 10px solid black;
-    padding: 5px;
-    margin: 5px;
 }
 nav a:visited {
     color: blue;
@@ -28,8 +23,6 @@ nav a:hover{
     color: blue;
 }
 main{
-    padding: 10px;
-    margin: 15px;
     border: 5px solid black;
     border-radius: 10px;
     box-shadow: 2px 2px 2px black;
@@ -40,13 +33,11 @@ article p {
 section p {
     text-align: left;
     font-weight: bold;
-    font-size: 2.5em;
 }
 aside{
     text-align: justify;
 }
 footer{
-    font-size: 0.5em;
     color: white;
     border-radius: 5px;
 }
