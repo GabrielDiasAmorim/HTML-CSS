@@ -2,6 +2,9 @@ body{
     background-image: linear-gradient(to left, navy, black);
     color: white;
 }
+header{
+
+}
 h1{
     text-align: center;
     font-size: 24px;
@@ -10,17 +13,18 @@ article p {
     text-align: justify;
     font-size: 20px;
 }
-.html{
-    border: 5px solid orange;
-    color: white;
+.html { 
+    background: #f97316; 
 }
-.css{
-    border: 5px solid #214CE5;
-    color: white;
+
+.css { 
+    background: #3b82f6; 
 }
-.js{
-    border: 5px solid yellow;
-    color: white;
+.js { 
+    background: #eab308; color: black; 
+}
+.git { 
+    background: #6b7280; 
 }
 h2{
     font-size: 24px;
