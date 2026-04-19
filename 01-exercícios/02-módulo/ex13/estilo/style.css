@@ -13,7 +13,13 @@ article p {
 h2{
     font-size: 24px;
 }
-aside{
+.um{
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+.dois{
     text-align: justify;
     margin: 10px;
     font-size: 20px;
