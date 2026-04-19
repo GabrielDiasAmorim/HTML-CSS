@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class e elemento</title>
+    <!--visited e hover, before e after-->
+    <style>
+        body{
+            font: normal 1.5em arial,
+        }
+        a{
+            font-weight: bold;
+            text-decoration: none;
+            color: chocolate;
+        }
+        .canal:visited{
+            color: chartreuse;
+        }
+        .canal:hover{
+            text-decoration: underline;
+        }
+        .canal:hover{
+            color: white;
+            background-color: black;
+            text-decoration: none;
+        }
+        .canal::before{
+            content: 👉;
+            font-weight: lighter;
+        }
+        .canal::after{
+            content: 👈;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizado um link</h1>
+    <p>para aprender HTML5 e CSS3 acesse o </p>
+    <a href="https://gustavoguanabara.github.io" target="_blank">Github do Guanabara</a>
+    <p>se quiser conhecer mais sobre os padrões, visite o site do </p>
+    <a href="https://www.w3c.br" target="_blank">escritório do w3c no Brasil</a>
+    <p>para acompanhar os cursos acesse o </p>
+    <a href="https://www.youtube.com/cursoemvideo/" class="canal">canal do curso em video</a>
+</body>
+</html>
