@@ -1,6 +1,6 @@
 body{
     background-image: linear-gradient(to left, navy, black);
-    min-height: 100vh;
+    min-height: 96vh;
     display: flex;
     flex-direction: column;
 }
@@ -60,7 +60,7 @@ article p {
     display: inline-block
 }
 .js { 
-    background: #eab308; color: black;
+    background: #eab308;
     display: inline-block; 
 }
 .git { 
