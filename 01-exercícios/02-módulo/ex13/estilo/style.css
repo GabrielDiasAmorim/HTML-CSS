@@ -13,6 +13,9 @@ article p {
     text-align: justify;
     font-size: 20px;
 }
+div{
+    font-size: 18px;
+}
 .html { 
     background: #f97316; 
 }
