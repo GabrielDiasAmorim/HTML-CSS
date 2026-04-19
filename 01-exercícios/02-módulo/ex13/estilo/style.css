@@ -1,5 +1,7 @@
 body{
     background-image: linear-gradient(to left, navy, black);
+
+    /*esses tres aqui peguei com o chatgpt*/
     min-height: 96vh;
     display: flex;
     flex-direction: column;
@@ -8,8 +10,10 @@ body{
     font-family: arial, sans-serif;
 }
 main {
+    /*chatgpt*/
     flex: 1;
 }
+/*chatgpt*/
 header{
     color: white;
     text-align: center;
@@ -20,6 +24,7 @@ header h1{
     margin: 0;
     font-size: 28px;
 }
+/*chatgpt*/
 nav{
     margin: 20px 0;
 }
@@ -37,6 +42,7 @@ article p {
     text-align: justify;
     font-size: 20px;
 }
+/*chatgpt*/
 .skils{
     display: flex;
     flex-direction: column;
@@ -49,7 +55,7 @@ article p {
     color: white;
     width: fit-content;
 }
-
+/*peguei de um outro projeto meu*/
 .html { 
     background: #f97316; 
     display: inline-block;
