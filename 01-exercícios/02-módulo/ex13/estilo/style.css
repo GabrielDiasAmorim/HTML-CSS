@@ -18,29 +18,35 @@ div{
     font-size: 18px;
 }
 .html { 
-    background: #f97316; 
+    color: #f97316; 
+    display: inline-block;
 }
 
 .css { 
     background: #3b82f6; 
+    display: inline-block
 }
 .js { 
-    background: #eab308; color: black; 
+    background: #eab308; color: black;
+    display: inline-block; 
 }
 .git { 
     background: #6b7280; 
+    display: inline-block;
 }
 h2{
     color: white;
     font-size: 24px;
 }
 .um{
+    color: white;
     text-align: justify;
     padding: 10px;
     margin: 10px;
     font-size: 20px;
 }
 .dois{
+    color: white;
     text-align: justify;
     margin: 10px;
     font-size: 20px;
