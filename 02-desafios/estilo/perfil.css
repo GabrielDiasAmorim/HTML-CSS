@@ -20,6 +20,7 @@ main ul {
 }
 nav a {
     color: blue;
+    margin: 8px;
 }
 nav a:hover {
     color: purple;
