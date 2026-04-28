@@ -25,3 +25,12 @@ nav a:hover {
     color: purple;
     transition: 0.5ms;
 }
+.Instagram {
+    background: linear-gradient(45deg, #f58529, #e1306c, #833ab4);
+}
+.LinkedIn {
+    background-color: #0077B5;
+}
+.github {
+    background-color: #171515;
+}
